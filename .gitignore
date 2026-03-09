@@ -1,0 +1,40 @@
+# System & IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# XAMPP & Local development
+xampp/
+.env
+.env.local
+
+# Sensitive files
+config.php
+database.php
+secrets.json
+credentials.json
+
+# Logs & temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Compiled/cached files
+*.cache
+*.tmp
+
+# Dependencies (if using composer or npm)
+vendor/
+node_modules/
+composer.lock
+package-lock.json
+
+# OS files
+Thumbs.db
+.DS_Store
